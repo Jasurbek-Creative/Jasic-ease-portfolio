@@ -1,0 +1,11 @@
+@mixin fonts {
+  font-family: Inter , sans-serif;
+}
+
+@mixin font-plus{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+@mixin ease{
+  transition: all 0.3s ease;
+}

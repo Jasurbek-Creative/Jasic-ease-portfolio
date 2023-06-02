@@ -1,0 +1,8 @@
+.above-title {
+  color: $lightColor;
+  text-transform: uppercase;
+  letter-spacing: 7.5px;
+  font-size: 12px;
+  line-height: 24px;
+  @include fonts;
+}

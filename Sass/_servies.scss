@@ -1,0 +1,46 @@
+main {
+  background-color: rgba(202, 202, 202, 0.31);
+  padding: 100px 120px;
+//   padding: 151px 120px 144px 120px;
+  .above-title {
+    text-align: center;
+  }
+  h1 {
+    margin-top: 8px;
+    @include font-plus;
+    color: $secondaryColor;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+  }
+  article {
+    margin-top: 104px;
+    display: flex;
+    gap: 56px;
+    .card {
+      border-radius: 8px;
+      background-color: #fff;
+      padding: 53px 50px;
+      text-align: center;
+    //   margin: 0 26px;
+
+      img {
+        padding: 16px;
+        border-radius: 16px;
+        background-color: rgba(245, 243, 254, 1);
+      }
+      .card-title {
+        margin: 20px 0;
+        @include font-plus;
+        font-size: 16px;
+        color: $secondaryColor;
+      }
+      p {
+        @include fonts;
+        line-height: 24px;
+        font-size: 14px;
+        color: $secondaryColor;
+      }
+    }
+  }
+}

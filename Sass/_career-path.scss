@@ -1,0 +1,25 @@
+main{
+    .career-path{
+        display: flex;
+        align-items: center;
+        gap: 150px;
+
+        .left-career{
+
+            .career__title{
+                
+                .above-title{
+                    text-align: start;
+                }
+                h1{
+
+                }
+            }
+            .career-button{
+                // display: flex;
+                display: inline;
+                // flex-direction: column;
+            }
+        }
+    }
+}

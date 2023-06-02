@@ -1,0 +1,104 @@
+@import "colors";
+@import "typograph";
+@import "navbar";
+@import "above-title";
+@import "hero";
+@import "servies";
+@import "career-path";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @include fonts;
+}
+body {
+  .myWorks {
+    background-color: #fff;
+    margin: 104px 120px;
+
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &__title {
+        h1 {
+          @include font-plus;
+          font-size: 36px;
+          color: $secondaryColor;
+          font-weight: bold;
+        }
+      }
+      &__button--right {
+        display: flex;
+        gap: 15px;
+        button:first-child {
+          padding: 5px 6px;
+          border-radius: 16px;
+          border: none;
+          background-color: #eae6fe;
+          opacity: 0.5;
+          cursor: pointer;
+        }
+        button:last-child {
+          padding: 5px 6px;
+          border-radius: 16px;
+          border: none;
+          background-color: #eae6fe;
+          cursor: pointer;
+        }
+      }
+    }
+    &__cards {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      .card {
+        width: calc(361px - 50px);
+        height: calc(402px - 50px);
+        border: 2px solid #f1f1f1;
+        border-radius: 10px;
+        img {
+          // border-radius: 8px;
+          width: 100%;
+        }
+        .position {
+          position: relative;
+          bottom: 100px;
+          background-color: #fff;
+          padding: 20px 0 15px 20px;
+          p {
+            @include font-plus;
+            margin-bottom: 15px;
+            font-size: 16px;
+            color: $secondaryColor;
+          }
+
+          .btn-pg {
+            display: flex;
+            align-items: center;
+            button:first-child {
+              @include fonts;
+              font-size: 12px;
+              margin-right: 16px;
+              padding: 4px 8px;
+              color: $lightColor;
+              background-color: #fff;
+              border: 2px solid #f1f1f1;
+              border-radius: 4px;
+              cursor: pointer;
+            }
+            button:last-child {
+              border: none;
+              background: transparent;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+  main {
+  }
+}

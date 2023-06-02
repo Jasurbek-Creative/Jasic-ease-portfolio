@@ -1,0 +1,266 @@
+.navbar {
+  width: auto;
+  height: 49px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 120px;
+  margin-top: 20px;
+}
+.navbar__logo {
+  width: 114px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+}
+.navbar__logo img {
+  width: 90%;
+}
+.navbar ul {
+  display: flex;
+  gap: 50px;
+  display: flex;
+  align-items: center;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  color: #232E35;
+  text-decoration: none;
+}
+.navbar ul li span {
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.navbar ul a:hover {
+  color: #7E74F1;
+  transition: all 0.3s ease;
+}
+.navbar .dark-resume {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.navbar .dark-resume img {
+  cursor: pointer;
+}
+.navbar .dark-resume button {
+  border: 1px solid #F1F1F1;
+  color: #232E35;
+  padding: 16px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+}
+.navbar .dark-resume button:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #7E74F1;
+  box-shadow: 0px 10px 33px -11px rgba(126, 116, 241, 0.35);
+  transition: all 0.3s ease;
+}
+
+.above-title {
+  color: #656D72;
+  text-transform: uppercase;
+  letter-spacing: 7.5px;
+  font-size: 12px;
+  line-height: 24px;
+  font-family: Inter, sans-serif;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 151px 120px 144px 120px;
+}
+.hero__text--left {
+  width: 538px;
+  height: 289px;
+}
+.hero__text--left h1 {
+  color: #232E35;
+  font-size: 44px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 17px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.hero__text--left h1 span {
+  color: #7E74F1;
+  margin-left: 5px;
+}
+.hero__text--left p {
+  color: #232E35;
+  font-size: 16px;
+  line-height: 32px;
+  margin-top: 31px;
+  margin-bottom: 40px;
+  font-family: Inter, sans-serif;
+}
+.hero__text--left .social-media {
+  width: 192px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__text--left .social-media img {
+  cursor: pointer;
+}
+.hero__img--right .full-img {
+  background-color: #7E74F1;
+  width: 85%;
+  transform: rotate(-10deg);
+  border-radius: 16px;
+}
+.hero__img--right .full-img img {
+  width: 100%;
+  transform: rotate(10deg);
+}
+
+main {
+  background-color: rgba(202, 202, 202, 0.31);
+  padding: 100px 120px;
+}
+main .above-title {
+  text-align: center;
+}
+main h1 {
+  margin-top: 8px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #232E35;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+main article {
+  margin-top: 104px;
+  display: flex;
+  gap: 56px;
+}
+main article .card {
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 53px 50px;
+  text-align: center;
+}
+main article .card img {
+  padding: 16px;
+  border-radius: 16px;
+  background-color: rgb(245, 243, 254);
+}
+main article .card .card-title {
+  margin: 20px 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  color: #232E35;
+}
+main article .card p {
+  font-family: Inter, sans-serif;
+  line-height: 24px;
+  font-size: 14px;
+  color: #232E35;
+}
+
+main .career-path {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+main .career-path .left-career .career__title .above-title {
+  text-align: start;
+}
+main .career-path .left-career .career-button {
+  display: inline;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+body .myWorks {
+  background-color: #fff;
+  margin: 104px 120px;
+}
+body .myWorks__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .myWorks__header__title h1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 36px;
+  color: #232E35;
+  font-weight: bold;
+}
+body .myWorks__header__button--right {
+  display: flex;
+  gap: 15px;
+}
+body .myWorks__header__button--right button:first-child {
+  padding: 5px 6px;
+  border-radius: 16px;
+  border: none;
+  background-color: #eae6fe;
+  opacity: 0.5;
+  cursor: pointer;
+}
+body .myWorks__header__button--right button:last-child {
+  padding: 5px 6px;
+  border-radius: 16px;
+  border: none;
+  background-color: #eae6fe;
+  cursor: pointer;
+}
+body .myWorks__cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+body .myWorks__cards .card {
+  width: 311px;
+  height: 352px;
+  border: 2px solid #f1f1f1;
+  border-radius: 10px;
+}
+body .myWorks__cards .card img {
+  width: 100%;
+}
+body .myWorks__cards .card .position {
+  position: relative;
+  bottom: 100px;
+  background-color: #fff;
+  padding: 20px 0 15px 20px;
+}
+body .myWorks__cards .card .position p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #232E35;
+}
+body .myWorks__cards .card .position .btn-pg {
+  display: flex;
+  align-items: center;
+}
+body .myWorks__cards .card .position .btn-pg button:first-child {
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  margin-right: 16px;
+  padding: 4px 8px;
+  color: #656D72;
+  background-color: #fff;
+  border: 2px solid #f1f1f1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+body .myWorks__cards .card .position .btn-pg button:last-child {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
